@@ -10,8 +10,28 @@
   }
 }
 
+.resourceDropdown {
+  padding: 8px;
+  background-color: rgb(53, 53, 53);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  top: 0;
+  right: 0;
+  position: fixed;
+  z-index: 99;
+}
+
+.resourceDropdown:hover {
+  background-color: #50ad50;
+  color: #50ad50;
+}
+
 .section{
   height: 100vh;
+  width: 90vw;
+  justify-self: center;
+  justify-items: center;
+  overflow-wrap: break-word;
   margin-top: 64px;
   color: #00ff00; /* Matrix-like green color */
   font-family: 'Courier New', Courier, monospace; /* Monospace font for a techy look */
@@ -20,6 +40,7 @@
 
 .title{
   margin-bottom: 32px;
+  padding: 16px;
   color: #05ff00;
 }
 
@@ -31,6 +52,7 @@
 .tableOfContentsLinks{
   color: rgb(55, 220, 63);
   text-decoration: underline;
+  font-size: large;
 }
 html,
 body {

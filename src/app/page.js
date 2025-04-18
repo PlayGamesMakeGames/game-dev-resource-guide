@@ -1,17 +1,19 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import ResourceDropdown from "./resourcedropdown";
 
 export default function Home() {
   return (
     <div className={styles.page}>
+      <div className="resourceDropdown">
+        <ResourceDropdown title="Resources"></ResourceDropdown>
+     </div>
      <h1 className="title">
         Adding Projects To Your Resume as a Tech Major Through Game Development
      </h1>
-     <div className="resourceDropdown">
-        Resources
-     </div>
-     <div className="tableOfContents">
+     <div className="tableOfContents section">
         <h1 className="title">Table of Contents</h1>
+        <div>
         <ul className="tableOfContentsLinks">
           <li><a href="#1">What's in the guide?</a></li>
           <li><a href="#2">Who is the Guide for?</a></li>
@@ -19,6 +21,7 @@ export default function Home() {
           <li><a href="#4">How is the guide organized?</a></li>
           <li><a href="#5">Tips for navigating this site</a></li>
         </ul>
+        </div>
      </div>
      <div className="whatInGuide section" id="1">
        <h1 className="title">What's in the guide?</h1>
