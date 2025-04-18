@@ -15,14 +15,51 @@
   background-color: rgb(53, 53, 53);
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  top: 0;
-  right: 0;
+  top: 8px;
+  right: 8px;
   position: fixed;
   z-index: 99;
 }
 
-.resourceDropdown:hover {
-  background-color: #50ad50;
+.resourceDropdown:hover,
+.resourceList:hover{
+  background-color: rgb(75, 75, 75);
+  color: #50ad50;
+}
+
+.resourceDropdown:hover + .resourceList,
+.resourceList:hover{
+  display: inline-block;
+}
+
+.resourceList {
+  display: none;
+  position: absolute;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  width: 161px;
+  padding: 8px;
+  border-radius: 8px;
+  top: 60px;
+  right: 128px;
+  width: 100%;
+  z-index: 100;
+}
+
+
+.scrollTopButton{
+  background-color: rgb(53, 53, 53);
+  color: #50ad50;
+  border: 2px solid #50ad50; /*Green border for the outside of the button*/
+  border-radius: 50%;
+  padding: 16px;
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+}
+
+.scrollTopButton:hover {
+  background-color: rgb(75, 75, 75);
   color: #50ad50;
 }
 

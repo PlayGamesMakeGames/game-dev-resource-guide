@@ -7,8 +7,23 @@ export default function Home() {
     <div className={styles.page}>
       <div className="resourceDropdown">
         <ResourceDropdown title="Resources"></ResourceDropdown>
+        <div className="resourceList">
+          <a>Neal's Fun Games</a>
+          <a>Neal's Fun Games</a>
+          <a>Neal's Fun Games</a>
+          <a>Neal's Fun Games</a>
+          <a>Neal's Fun Games</a>
+          <a>Neal's Fun Games</a>
+        </div>
      </div>
-     <h1 className="title">
+     <div className="scrollTopButton">
+     <a href="#0">
+      <button className="scrollTopButton">
+          ↑
+      </button>
+     </a>
+     </div>
+     <h1 className="title" id="0">
         Adding Projects To Your Resume as a Tech Major Through Game Development
      </h1>
      <div className="tableOfContents section">
