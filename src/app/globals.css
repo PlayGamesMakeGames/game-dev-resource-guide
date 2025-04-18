@@ -13,10 +13,14 @@
 .section{
   height: 100vh;
   margin-top: 64px;
+  color: #00ff00; /* Matrix-like green color */
+  font-family: 'Courier New', Courier, monospace; /* Monospace font for a techy look */
+  /* text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00; Glowing effect */
 }
 
 .title{
   margin-bottom: 32px;
+  color: #05ff00;
 }
 
 .tableOfContents{
