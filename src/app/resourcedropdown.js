@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ResourceDropdown() {
   
 //     const style = {
@@ -16,7 +18,14 @@ export default function ResourceDropdown() {
 
   return (
     <div className="resourceDropdown">
-      <h2 className="title" style={{ marginBottom: "0px", padding: "8px" }}>Resources</h2>
+      <h2 className="title" style={{ margin: "0px", padding: "8px" }}>Resources</h2>
+      <ul className="resourceList">
+        <li className="resourceLink"><Link href="/nealsfungames">Neal's Fun Games</Link></li>
+        <li className="resourceLink"><Link href="/nealsfungames">Neal's Fun Games</Link></li>
+        <li className="resourceLink"><Link href="/nealsfungames">Neal's Fun Games</Link></li>
+        <li className="resourceLink"><Link href="/nealsfungames">Neal's Fun Games</Link></li>
+        <li className="resourceLink"><Link href="/nealsfungames">Neal's Fun Games</Link></li>
+      </ul>
     </div>
   );
 }

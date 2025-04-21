@@ -10,6 +10,12 @@
   }
 }
 
+.wrapper{
+  text-align: center;
+  color: #00ff00;
+  padding-right: 11vw;
+}
+
 .resourceDropdown {
   padding: 8px;
   background-color: rgb(53, 53, 53);
@@ -19,9 +25,58 @@
   right: 8px;
   position: fixed;
   z-index: 99;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-.resourceDropdown:hover,
+.resourceLink{
+  color: #05ff00;
+  list-style-type: none; /* Remove bullets */
+  background-color: rgb(53, 53, 53); /* Add gray box */
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-decoration: underline;
+  font-family: 'Courier New', Courier, monospace;
+  /* width: 10vw; */
+}
+
+.homeButton{
+  height: 10vh;
+  width: 10vh;
+  font-size: 10vh; /* Scale the emoji size with the container */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  padding: 16px;
+  margin: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pageTitle{
+  color: #05ff00;
+  text-align: center;
+  margin: 32px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.pageContent{
+  color: #00ff00; /* Matrix-like green color */
+  font-family: 'Courier New', Courier, monospace; /* Monospace font for a techy look */
+  text-align: center;
+  margin: 16px;
+  /* padding-right: 11vw;
+  padding-left: 11vw; */
+}
+
+.pageLink{
+  text-decoration: underline;
+}
+
+/* .resourceDropdown:hover,
 .resourceList:hover{
   background-color: rgb(75, 75, 75);
   color: #50ad50;
@@ -30,10 +85,10 @@
 .resourceDropdown:hover + .resourceList,
 .resourceList:hover{
   display: inline-block;
-}
+} */
 
 .resourceList {
-  display: none;
+  /* display: none; */
   position: absolute;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
@@ -41,7 +96,7 @@
   padding: 8px;
   border-radius: 8px;
   top: 60px;
-  right: 128px;
+  right: 0px;
   width: 100%;
   z-index: 100;
 }
@@ -66,6 +121,8 @@
 .section{
   height: 100vh;
   width: 90vw;
+  padding-right: 10vw;
+  padding-left: 10vw;
   justify-self: center;
   justify-items: center;
   overflow-wrap: break-word;
@@ -76,9 +133,11 @@
 }
 
 .title{
-  margin-bottom: 32px;
+  margin: 32px;
   padding: 16px;
+  /* padding-right: 11vw; */
   color: #05ff00;
+  text-align: center;
 }
 
 .tableOfContents{

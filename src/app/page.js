@@ -1,29 +1,24 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import ResourceDropdown from "./resourcedropdown";
+import Link from "next/link";
+import HomeButton from "./homebutton";
 
 export default function Home() {
   return (
     <div className={styles.page}>
+      <HomeButton></HomeButton>
       <div className="resourceDropdown">
         <ResourceDropdown title="Resources"></ResourceDropdown>
-        <div className="resourceList">
-          <a>Neal's Fun Games</a>
-          <a>Neal's Fun Games</a>
-          <a>Neal's Fun Games</a>
-          <a>Neal's Fun Games</a>
-          <a>Neal's Fun Games</a>
-          <a>Neal's Fun Games</a>
-        </div>
      </div>
-     <div className="scrollTopButton">
+     {/* <div className="scrollTopButton">
      <a href="#0">
       <button className="scrollTopButton">
           ↑
       </button>
      </a>
-     </div>
-     <h1 className="title" id="0">
+     </div> */}
+     <h1 className="title" id="0" style={{ paddingRight: "5vw" }}>
         Adding Projects To Your Resume as a Tech Major Through Game Development
      </h1>
      <div className="tableOfContents section">
@@ -55,8 +50,12 @@ export default function Home() {
        This guide is organized as 6 unique resources that can help you become a game developer. They are in order of what you need to know to create your first game!
      </div>
      <div className="tips section" id="5">
-       <h1 className="title">Tips for navigating this site</h1>
-       Some tips for navigating this website: If you want to return to the top of the page, click the video game controller icon in the top left!
+        <h1 className="title">Tips for navigating this site</h1>
+        <ul>
+          <li>
+            If you want to return to the home screen or the top of this screen, click the video game controller icon in the top left!
+          </li>
+        </ul>
      </div>
     </div>
   );
