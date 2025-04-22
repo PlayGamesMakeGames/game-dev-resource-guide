@@ -27,9 +27,10 @@
   z-index: 99;
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
+  transform-origin: right;
 }
 
-.resourceLink{
+.resourceLink {
   color: #05ff00;
   list-style-type: none; /* Remove bullets */
   background-color: rgb(53, 53, 53); /* Add gray box */
@@ -40,7 +41,36 @@
   text-decoration: underline;
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
+  transform-origin: right;
   /* width: 10vw; */
+}
+
+@media (max-width: 1200px) {
+  .resourceDropdown {
+    scale: 75%;
+  }
+
+  .resourceLink {
+    /* scale: 50% */
+  }
+}
+@media (max-width: 850px) {
+  .resourceDropdown {
+    scale: 50%;
+  }
+
+  .resourceLink {
+    /* scale: 50% */
+  }
+}
+@media (max-width: 500px) {
+  .resourceDropdown {
+    scale: 35%;
+  }
+
+  .resourceLink {
+    /* scale: 50% */
+  }
 }
 
 .homeButton{
@@ -56,6 +86,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transform-origin: left;
+}
+
+@media (max-width: 600px) {
+  .homeButton {
+    /* scale: 50%; */
+    height: 5vh;
+    width: 5vh;
+    font-size: 5vh;
+    padding: 8px;
+    margin: 2px;
+  }
 }
 
 .pageTitle{
