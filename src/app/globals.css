@@ -74,8 +74,26 @@
   padding-left: 11vw; */
 }
 
+.pageTips {
+  color: #00ff00; /* Matrix-like green color */
+  font-family: 'Courier New', Courier, monospace; /* Monospace font for a techy look */
+  text-align: center;
+  justify-content: center;
+  margin: 16px;
+  list-style-position: inside; /* Center align bullets */
+}
+
+.pageSubheading{
+  color: #05ff00;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 16px;
+  margin-top: 5vh;
+}
+
 .pageLink{
   text-decoration: underline;
+  padding-bottom: 10vh;
 }
 
 /* .resourceDropdown:hover,
