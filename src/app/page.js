@@ -8,9 +8,7 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <HomeButton></HomeButton>
-      <div className="resourceDropdown">
-        <ResourceDropdown title="Resources"></ResourceDropdown>
-     </div>
+      <ResourceDropdown title="Resources"></ResourceDropdown>
      {/* <div className="scrollTopButton">
      <a href="#0">
       <button className="scrollTopButton">
