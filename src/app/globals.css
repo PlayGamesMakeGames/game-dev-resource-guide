@@ -112,7 +112,7 @@
 .pageContent{
   color: #00ff00; /* Matrix-like green color */
   font-family: 'Courier New', Courier, monospace; /* Monospace font for a techy look */
-  text-align: center;
+  text-align: left;
   margin: 16px;
   /* padding-right: 11vw;
   padding-left: 11vw; */
@@ -121,7 +121,7 @@
 .pageTips {
   color: #00ff00; /* Matrix-like green color */
   font-family: 'Courier New', Courier, monospace; /* Monospace font for a techy look */
-  text-align: center;
+  text-align: left;
   justify-content: center;
   margin: 16px;
   list-style-position: inside; /* Center align bullets */
