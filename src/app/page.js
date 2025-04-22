@@ -35,7 +35,7 @@ export default function Home() {
      </div>
      <div className="whatInGuide section" id="1">
        <h1 className="title">What's in the guide?</h1>
-       Here is what is in the guide
+       This guide contains all of the resources you will need to fully develop your first video game! Starting off with some brainstorming there is a website with a bunch of example projects on it as well as some YouTube channels with a lot of great game dev content. We will be focusing on the Unity game engine and C# for coding, Blender and the Unity Asset Store for assets, and Itch.io for publishing. 
      </div>
      <div className="whoGuideFor section" id="2">
        <h1 className="title">Who is the guide for?</h1>
@@ -47,7 +47,7 @@ export default function Home() {
      </div>
      <div className="organized section" id="4">
        <h1 className="title">How is the guide organized?</h1>
-       This guide is organized as 6 unique resources that can help you become a game developer. They are in order of what you need to know to create your first game!
+       This guide is organized as 6 unique resources that can help you become a game developer. They are in order of what you need to know to create your first game! It starts with brainstorming ideas, then jumps right into starting to make the game, following with asset information, and finally a free publishing site.
      </div>
      <div className="tips section" id="5">
         <h1 className="title">Tips for navigating this site</h1>

@@ -21,10 +21,10 @@ export default function ResourceDropdown() {
       <h2 className="title" style={{ margin: "0px", padding: "8px" }}>Resources</h2>
       <ul className="resourceList">
         <li className="resourceLink"><Link href="/nealsfungames">Neal's Fun Games</Link></li>
+        <li className="resourceLink"><Link href="/gamedevyoutubers">Game Dev Youtubers</Link></li>
         <li className="resourceLink"><Link href="/unitybook">Unity Game Dev Book</Link></li>
         <li className="resourceLink"><Link href="/unityassetstore">Unity Asset Store</Link></li>
         <li className="resourceLink"><Link href="/blendertutorial">Blender Tutorial</Link></li>
-        <li className="resourceLink"><Link href="/gamedevyoutubers">Game Dev Youtubers</Link></li>
         <li className="resourceLink"><Link href="/itch">Itch.io</Link></li>
       </ul>
     </div>
