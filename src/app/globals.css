@@ -63,15 +63,15 @@
     /* scale: 50% */
   }
 }
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   .resourceDropdown {
     scale: 35%;
   }
 
   .resourceLink {
-    /* scale: 50% */
+    /* scale: 50% 
   }
-}
+} */
 
 .homeButton{
   height: 10vh;
