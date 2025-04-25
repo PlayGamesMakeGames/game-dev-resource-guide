@@ -25,7 +25,7 @@ export default function ResourceDropdown() {
         <li className="resourceLink"><Link href="/unitybook">Unity Game Dev Book</Link></li>
         <li className="resourceLink"><Link href="/unityassetstore">Unity Asset Store</Link></li>
         <li className="resourceLink"><Link href="/blendertutorial">Blender Tutorial</Link></li>
-        <li className="resourceLink"><Link href="/itch">Itch.io</Link></li>
+        <li className="resourceLink"><Link href="/itch">Share Your Games</Link></li>
       </ul>
     </div>
   );
