@@ -204,8 +204,8 @@
 .title{
   margin: 32px;
   padding: 16px;
-  margin-top: 0px;
-  padding-top: 0px;
+  /* margin-top: 0px;
+  padding-top: 0px; */
   /* padding-right: 11vw; */
   color: #05ff00;
   text-align: center;

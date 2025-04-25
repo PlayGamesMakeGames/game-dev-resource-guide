@@ -16,7 +16,7 @@ export default function Home() {
       </button>
      </a>
      </div> */}
-     <h1 className="title" id="0" style={{ paddingRight: "5vw" }}>
+     <h1 className="title" id="0" style={{ paddingRight: "5vw", marginTop: "0px", paddingTop: "0px"}}>
         Adding Projects To Your Resume as a Tech Major Through Game Development
      </h1>
      <div className="tableOfContents section">
