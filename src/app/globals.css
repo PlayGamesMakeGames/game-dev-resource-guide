@@ -91,7 +91,7 @@
   transform-origin: left;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 775px) {
   .homeButton {
     /* scale: 50%; */
     height: 5vh;
@@ -140,6 +140,35 @@
 .pageLink{
   text-decoration: underline;
   padding-bottom: 10vh;
+}
+
+.pageImg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px;
+  padding-right: 8vw;
+  max-height: 100px;
+}
+
+.pageSS{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px;
+  padding-right: 8vw;
+  max-height: 500px;
+}
+
+@media (max-width: 925px) {
+  .pageSS {
+    max-height: 300px; /* Shrink the picture in half */
+  }
+}
+@media (max-width: 525px) {
+  .pageSS {
+    max-height: 150px; /* Shrink the picture in half */
+  }
 }
 
 /* .resourceDropdown:hover,

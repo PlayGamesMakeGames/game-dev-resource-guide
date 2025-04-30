@@ -11,7 +11,10 @@ export default function UnityBook() {
         <ResourceDropdown></ResourceDropdown>
         <h1 className="pageTitle">Unity Asset Store</h1>
         <h2 className="pageSubheading">Abstract</h2>
-        <div className="pageContent">The Unity Asset Store is a large collection of assets game developers can use to jump start their projects. Game development requires so many skills, but the Unity Asset Store makes that barrier of entry so much lower! It is composed of assets for games like characters, enemies, backgrounds, sound effects, music, and even tools to help you develop! I suggest using free assets for your first game since the hardest part about game development is finishing your first project. These assets will give you that confidence you need to finish your first game!</div>
+        <div className="pageContent">The Unity Asset Store is a large collection of assets game developers can use to jump start their projects. Game development requires so many skills, but the Unity Asset Store makes that barrier of entry so much lower! It is composed of assets for games like characters, enemies, backgrounds, sound effects, music, and even tools to help you develop! I suggest using free assets for your first game since the hardest part about game development is finishing your first project. These assets will give you that confidence you need to finish your first game!
+        <br></br><br></br>
+        <img className="pageSS" src="/Screenshot 2025-04-30 134602.png" alt="Unity Asset Store"></img>
+        </div>
         <ul className="pageTips">
           <h2 className="pageSubheading">Some Tips For Navigating The Unity Asset Store</h2>
           <li>There is a navigation bar at the top of the screen which leads to any category of asset that you may need; it appears anytime you scroll up.</li>

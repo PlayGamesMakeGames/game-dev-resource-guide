@@ -12,10 +12,11 @@ export default function UnityBook() {
         <h1 className="pageTitle">Game Development Youtubers</h1>
         <h2 className="pageSubheading">Abstract</h2>
         <div className="pageContent">These are two game development youtubers who have a lot of very useful content on their channels. <br></br><br></br>
-
+        <img className="pageImg" alt="Brackey's logo" src="https://yt3.googleusercontent.com/ytc/AIdro_mtZcOqYceTTKJehGYh1QFEn0zBqRCig4MRz0TE3tmdXJ8=s160-c-k-c0x00ffffff-no-rj"></img> <br></br>
 Brackeys is a professional game developer and wants to make game developement as accessible to as many people as possible. He has created a ton of Unity tutorials and is now starting to create Godot tutorials as well. He also has hosted many game jams, competitions where game developers create a game over a weekend and are ranked. 
 <br></br><br></br>
-Game Maker’s Toolkit is a game developer who has just released his first game and has been documenting the process on YouTube. His content was mostly dev logs about his game where viewers could learn through his mistakes. He also hosts one of the biggest game jams every year, highlighting a lot of incredible games.</div>
+        <img className="pageImg" alt="GMTK logo" src="https://yt3.googleusercontent.com/qiQ-tDqNkkGAKj8wXfI6-7StEBWzMCPN28nxDPHdATYNda6SId66XTzp3GykDkJIvPVvRF6wUg=s160-c-k-c0x00ffffff-no-rj"></img> <br></br>
+Game Maker’s Toolkit is a game developer who has just released his first game and has been documenting the process on YouTube. His content was mostly dev logs about his game where viewers could learn through his mistakes, but now he does game design videos. He also hosts one of the biggest game jams every year, the GMTK Game Jam hosted on itch.io, highlighting a lot of incredible games.</div>
         <ul className="pageTips">
           <h2 className="pageSubheading">Some Tips For Navigating These Game Dev Channels</h2>
           <li>Go to the playlist tab and you’ll find many tutorials, dev logs, and general game design tips.</li>
