@@ -11,7 +11,11 @@ export default function UnityBook() {
         <ResourceDropdown></ResourceDropdown>
         <h1 className="pageTitle">Unity For Game Development Book</h1>
         <h2 className="pageSubheading">Abstract</h2>
-        <div className="pageContent">Alan Thorn, author of Learn Unity for 2D Game Development and experienced game developer, will teach you everything you need to know about cross-platform game development in C# for Unity, one of the most popular game engines, in this book. He covers all the basics for someone’s first game: design, event handling, player controller, enemies, weapons, power-ups, graphical user interfaces (GUIs), etc. It is a very in-depth look into the right way to create these major components of your game. Making sure you create these core parts of your game correctly is important because if the game blows up and you decide to add more to it, you want it to be easily editable for future updates.</div>
+        <div className="pageContent">
+        <img className="pageImg" src="/Screenshot 2025-04-30 140402.png"></img>
+
+          Alan Thorn, author of Learn Unity for 2D Game Development and experienced game developer, will teach you everything you need to know about cross-platform game development in C# for Unity, one of the most popular game engines, in this book. He covers all the basics for someone’s first game: design, event handling, player controller, enemies, weapons, power-ups, graphical user interfaces (GUIs), etc. It is a very in-depth look into the right way to create these major components of your game. Making sure you create these core parts of your game correctly is important because if the game blows up and you decide to add more to it, you want it to be easily editable for future updates.
+        </div>
         <ul className="pageTips">
           <h2 className="pageSubheading">Some Tips For Navigating The Unity For Game Development Book</h2>
           <li>The table of contents at the start of the book will allow you to jump to the part of the book that you’d like to read.</li>
